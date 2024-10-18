@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Delete a task
     window.deleteTask = function (index) {
-        tasks.splice(index, 1); // Re
+        tasks.splice(index, 1); 
         localStorage.setItem("tasks", JSON.stringify(tasks));
         renderTasks(); // Re-render the task list
     };
