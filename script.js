@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const addTaskBtn = document.getElementById("add-task-btn");
     const taskList = document.getElementById("task-list");
 
-    // Retrieve tasks from localStorage or initialize an empty array
+    // Retrieve tasks from localStorage initialize an empty array
     let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
     // Function to render tasks on the page
